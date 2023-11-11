@@ -2,7 +2,6 @@
   "name": "typescript-hw",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "homepage": "https://github.com/DmytoStas/goit-typescript-hw-01/",
   "scripts": {
     "start": "parcel src/index.html",
