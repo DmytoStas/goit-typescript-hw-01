@@ -2,16 +2,9 @@
   "name": "goit-typescript-hw-01",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.ts",
-  "main": "dist/main.js",
-  "homepage": "https://github.com/okeeffed/hello-parcel-2-npm-packages#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/okeeffed/hello-parcel-2-npm-packages.git"
-  },
+  "main": "index.js",
   "scripts": {
-    "start": "web-dev-server --node-resolve --open --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "web-dev-server --node-resolve --open --watch"
   },
   "keywords": [],
   "author": "",

@@ -3,3 +3,6 @@ const concatenation = (firstWord: string, secondWord: string) => {
 }
 
 export { concatenation };
+
+
+
