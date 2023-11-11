@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "web-dev-server --node-resolve --open --watch"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@web/dev-server": "^0.4.0"
+    "@web/dev-server": "^0.4.0",
+    "parcel": "^2.10.2",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^5.2.2"
   }
 }
