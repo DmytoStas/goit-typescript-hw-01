@@ -1,15 +1,22 @@
 {
   "name": "goit-typescript-hw-01",
   "version": "1.0.0",
-  "description": "",
+  "description": "- npm install -g typescript - tsc --init - tsc - tsc -w",
   "main": "index.js",
   "scripts": {
     "start": "web-dev-server --node-resolve --open --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmytoStas/goit-typescript-hw-01.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Dmytro Stas",
   "license": "ISC",
+  "bugs": {
+   "url": "https://github.com/DmytoStas/goit-typescript-hw-01/issues"
+ },
   "devDependencies": {
     "@web/dev-server": "^0.4.0"
   }
