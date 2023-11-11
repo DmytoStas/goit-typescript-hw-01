@@ -1,30 +1,22 @@
 {
   "name": "goit-typescript-hw-01",
   "version": "1.0.0",
-  "description": "- npm install -g typescript - tsc --init - tsc - tsc -w",
-  "homepage": "https://DmytoStas/goit-typescript-hw-01",
-  "main": "index.js",
-  "files": [
-    "src/"
-  ],
-  "scripts": {
-    "start": "web-dev-server --node-resolve --open --watch",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+  "description": "",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "homepage": "https://github.com/okeeffed/hello-parcel-2-npm-packages#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DmytoStas/goit-typescript-hw-01.git"
+    "url": "git+https://github.com/okeeffed/hello-parcel-2-npm-packages.git"
+  },
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Dmytro Stas",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DmytoStas/goit-typescript-hw-01/issues"
-  },
   "devDependencies": {
-    "@web/dev-server": "^0.4.0",
-    "gh-pages": "^6.0.0"
+    "@web/dev-server": "^0.4.0"
   }
 }
