@@ -6,7 +6,7 @@
   "homepage": "https://github.com/DmytoStas/goit-typescript-hw-01/",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /goit-js-hw-11/"
+    "build": "parcel build src/index.html --public-url /goit-typescript-hw-01/"
   },
   "keywords": [],
   "author": "",
