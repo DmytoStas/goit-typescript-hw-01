@@ -6,7 +6,7 @@
   "homepage": "https://github.com/DmytoStas/goit-typescript-hw-01/",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --public-url /goit-js-hw-11/"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,6 @@
     "parcel": "^2.10.2",
     "parcel-bundler": "^1.12.5",
     "typescript": "^5.2.2"
-  }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
